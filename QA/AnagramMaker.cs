@@ -8,14 +8,19 @@ using System.IO;
 using System.Linq;
 namespace QA
 {
-    class Solution {
+    class AnagramMaker{
 
-        static void Main(String[] args) {
+        //static void Main(String[] args) {
+        //    MakeAnagram();
+        //}
+
+        private static void MakeAnagram()
+        {
             string a = Console.ReadLine();
             string b = Console.ReadLine();
             MySort(a);
             MySort(b);
-            Console.WriteLine(anagramMaker(a,b));
+            Console.WriteLine(anagramMaker(a, b));
         }
     
         /// <summary>

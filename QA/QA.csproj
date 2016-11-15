@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnagramMaker.cs" />
+    <Compile Include="MaximumDigitalTimeClock.cs" />
+    <Compile Include="Equilibrium.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotateLeft.cs" />
